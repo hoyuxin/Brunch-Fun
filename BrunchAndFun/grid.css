@@ -1,0 +1,50 @@
+@media screen and (max-width:767px) {
+		.phone_c-1{ width: 8.333333%; }
+		.phone_c-2{ width: 16.666666%; }
+		.phone_c-3{ width: 25%; }
+		.phone_c-4{ width: 33.333333%; }
+		.phone_c-5{ width: 41.666666%; }
+		.phone_c-6{ width: 50%; }
+		.phone_c-7{ width: 58.333333%; }
+		.phone_c-8{ width: 66.666666%; }
+		.phone_c-9{ width: 75%; }
+		.phone_c-10{ width: 83.333333%; }
+		.phone_c-11{ width: 91.666666%; }
+		.phone_c-12{ width: 100%; }
+		.phone_c-1, .phone_c-2, .phone_c-3, .phone_c-4, .phone_c-5, .phone_c-6, .phone_c-7, .phone_c-8, .phone_c-9, .phone_c-10, .phone_c-11{
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-right: 10px;
+			float: left;
+		}	
+		.phone_c-12{	
+			box-sizing: border-box;
+			float: left;
+		}			
+}		
+
+/*---------------------------------------------*/
+@media screen and (min-width:768px) {
+		.pc_c-1{ width: 8.333333%; }
+		.pc_c-2{ width: 16.666666%; }
+		.pc_c-3{ width: 25%;}
+		.pc_c-4{ width: 33.333333%; }
+		.pc_c-5{ width: 41.666666%; }
+		.pc_c-6{ width: 50%; }
+		.pc_c-7{ width: 58.333333%; }
+		.pc_c-8{ width: 66.666666%; }
+		.pc_c-9{ width: 75%; }
+		.pc_c-10{ width: 83.333333%; }
+		.pc_c-11{ width: 91.666666%; }
+		.pc_c-12{ width: 100%; }	
+		.pc_c-1, .pc_c-2, .pc_c-3, .pc_c-4, .pc_c-5, .pc_c-6, .pc_c-7, .pc_c-8, .pc_c-9, .pc_c-10, .pc_c-11{
+			box-sizing: border-box;
+			padding-left: 10px;
+			padding-right: 10px;
+			float: left;
+		}			
+		.pc_c-12{
+			box-sizing: border-box;
+			float: left;
+		}
+}

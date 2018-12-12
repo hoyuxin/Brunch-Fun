@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Brunch & Fun-空間租借</title>
+<meta name="viewport" content="width=device-width initial-scale=1.0 maximum-scale=1.0 user-scalable=0,shrink-to-fit=no">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+<link rel="stylesheet"  type="text/css" href="style.css">
+<link rel="stylesheet"  type="text/css" href="reset.css">
+<link rel="stylesheet"  type="text/css" href="grid.css">
+<link rel="stylesheet"  type="text/css" href="tinycircleslider.css" >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="js/jquery.tinycircleslider.min.js"></script>
+	<script>
+		$(document).ready(function()
+		{
+			$('#rotatescroll').tinycircleslider({ interval: true, dotsSnap: true, dotsHide: false });
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+		  $(".ham").click(function(){
+		    $(this).toggleClass("is-active");
+		  });
+		});
+	</script>
+	<script>
+		new WOW().init();
+		var wow = new WOW({
+		    boxClass: 'wow',
+		    animateClass: 'animated',
+		    offset: 0,
+		    mobile: true,
+		    live: true
+		});
+		wow.init();
+	</script>		
+</head>
+<body class="font_chi">
+	<div class="header_all">	
+		<div class="logo_and_navbar  container phone_c-12 clearfix">
+			<input type="checkbox" class="control"  id="navbar_control">
+			<header>
+				<a href="index.html" class="logo"><img src="imgs/logo.png" alt="logo"></a>
+				<label class="ham" for="navbar_control" id="ham_con">
+					  <span class="line"></span>
+			          <span class="line"></span>
+			          <span class="line"></span>
+				</label>
+			</header>
+			<nav>
+				<ul class="menu clearfix ">
+					<li><a href="menu.html">特選菜單</a></li>
+					<li><a href="boardgameactivity.html">桌遊競賽</a></li>
+					<li><a href="boardgameclassic.html">經典桌遊</a></li>
+					<li><a href="spacelease.html">空間租借</a></li>
+					<li><a href="joinus.html">加入我們</a></li>
+					<li><a href="aboutus.html">關於我們</a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	<div class="between_banner"></div>
+	<div class="banner_spacelease  phone_c-12">	
+		<p class="banner_txt font_chi">空間租借</p>
+	</div>	
+	<div class="container wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">	
+		<div class="fun_space_calendar  phone_c-12 pc_c-4">
+			<div class="sign">
+				<img src="imgs/title.png">
+				<h2>檔期公告</h2>
+			</div>			
+			<div class="calendar phone_c-12">
+			  <div class="title">
+			    <h1 class="day_title" id="calendar-title">Month</h1>
+			    <h2 class="day_title small" id="calendar-year">Year</h2>
+			    <button id="prev"><i class="fas fa-angle-left fa-2x"></i></button>
+			    <button id="next"><i class="fas fa-angle-right fa-2x"></i></button>
+			  </div>
+			  <div class="calendar_box ">
+			    <div class="calendar_box_list sevenday">
+			      <ul>
+			        <li>MON</li>
+			        <li>TUE</li>
+			        <li>WED</li>
+			        <li>THU</li>
+			        <li>FRI</li>
+			        <li>SAT</li>
+			        <li>SUN</li>
+			      </ul>
+			    </div>
+			    <div class="day_box calendar_box_list">
+			      <ul id="days">
+			      </ul>
+			    </div>
+			  </div>
+			</div>
+			<div class="phone_c-12  form_all wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.1s">
+				<div class="sign">
+				<img src="imgs/title.png">
+				<h2>立即預約</h2>
+				</div>
+				<form action="#" method="post" class="form_event ">
+					<p>總共人數：</p><input type="text" maxlength="2" size="16">
+					<p>日期：</p><input type="date" name="bday" size="15">
+					<p>時段:</p>
+					<input type="radio" name="time" value="1"><span>10:00AM-12:00PM</span><br>
+					<input type="radio" name="time" value="2"><span>12:00PM-14:00PM</span>
+					<p>租借人：</p><input type="text" name="people" size="16">
+					<p>手機：</p><input type="text" name="phone" maxlength="12" size="16" placeholder="09xx-xxx-xxx"><span></span>
+					<p>E-mail：</p><input type="text"  name="email" size="20" placeholder="cd103@gmail.com">
+					<p>其他補充：</p>
+					<br><textarea name="other" cols="29" rows="4" placeholder="有什麼想說的都可以打在這..." class="textarea_size"></textarea><br>
+					<a href="#" class="btn_join "><p>送出</p></a>
+				</form>			
+			</div>	
+			<div class="phone_c-12  form_all">
+				<div class="sign">
+					<img src="imgs/title.png">
+					<h2>預約查詢</h2>
+				</div>				
+				<form action="reservation.php" method="post" class="reservation">
+					<p>手機號碼：<br><input type="text" maxlength="10" size="10" placeholder="0912345678" name="phone"></p>
+					<p>簡訊認證碼：<br><input type="text" name="authentication_code" size="10" ></p>
+					<a href="#" class="btn_join "><p>查詢</p></a>
+				</form>			
+			</div>					
+		</div>				
+		<div class=" phone_c-12 pc_c-8">
+				<div class="sign">
+					<img src="imgs/title.png">
+					<h2>店內實景</h2>
+				</div>
+		</div>
+		<div class="phone_c-12 pc_c-8 ">			
+			<div id="rotatescroll">
+				<div class="viewport ">
+					<ul class="overview">
+						<li><img src="imgs/space_slider3.png"></a></li>
+						<li><img src="imgs/space_slider2.png"></a></li>
+						<li><img src="imgs/space_slider1.png"></a></li>
+						<li><img src="imgs/space_slider4.png"></a></li>
+						<li><img src="imgs/space_slider5.png"></a></li>
+						</ul>
+				</div>
+				<div class="dot"></div>
+				<div class="overlay"></div>
+				<div class="thumb"></div>
+			</div>			
+			<div class=" phone_c-12">
+				<div class="sign">
+					<img src="imgs/title.png">
+					<h2>設備提供</h2>
+				</div>
+			</div>				
+			<div class="space_txt pc_c-3 phone_c-3">
+				<img src="imgs/device4.png">
+				<p>Wifi</p>
+				</div>
+			<div class="space_txt pc_c-3 phone_c-3">
+				<img src="imgs/device3.png">
+				<p>投影機</p>
+			</div>				
+			<div class=" space_txt pc_c-3 phone_c-3">
+				<img src="imgs/device2.png">
+				<p>麥克風</p>
+			</div>				
+			<div class="space_txt pc_c-3 phone_c-3">
+				<img src="imgs/device1.png">
+				<p>擴音設備</p>
+			</div>
+		</div>	
+		<div class=" phone_c-12 pc_c-8">
+				<div class="sign">
+					<img src="imgs/title.png">
+					<h2>預定說明</h2>
+				</div>
+				<div class="space_rule announcement pc_c-12">
+					<p><i class="fab fa-staylinked"></i>最大容納人數:30人，預約基本時數為兩小時(4500元/次)，續租每小時1200元。</p>
+					<p><i class="fab fa-staylinked"></i>開放預約時段為：「早上10:00 AM-中午12:00 PM」或「中午10:00 PM-下午14:00 PM」。</p>
+					<p><i class="fab fa-staylinked"></i>可選擇預約當天現場付清,ATM轉帳或是信用卡結帳。</p>
+					<p><i class="fab fa-staylinked"></i>線上預訂後,手機會收到簡訊認證碼,往後查詢訂單都需填寫認證碼。</p>
+					<p><i class="fab fa-staylinked"></i>確認預定後,當天現場付清的客人需先付訂金。預約日三天前不接受任何理由退訂。</p>
+					<p><i class="fab fa-staylinked"></i>若有需要提供餐點，有商業午餐套餐:$250/人，可供加購。</p>
+					<p><i class="fab fa-staylinked"></i>如有其他需求，煩請於平日上班時間電洽林先生 03-4909487。</p>
+					<p><i class="fab fa-staylinked"></i>請愛惜所有器材，租借日當天活動結束後，會與租借人點交器材有無損壞，如有損壞需賠償。</p>
+				</div>
+		</div>				
+	</div>
+	<footer class="phone_c-12 pc_c-12 ">
+			<h1><span class="font_eng">Brunch & Fun</span></h1>
+			<p><i class="fas fa-phone icon_tel"></i><span class="font_eng">03-4909487</span></p>
+			<p><i class="fas fa-map-marker-alt icon_add"></i>桃園市中壢區中大路<span class="font_eng">987</span>號</p>
+			<p><i class="far fa-clock icon_clock"></i>週日至週五 <span class="font_eng">9:30 AM-14:30 PM</span></p>
+	</footer>
+
+	<script type="text/javascript">
+		var month_olympic = [31,29,31,30,31,30,31,31,30,31,30,31];
+		var month_normal = [31,28,31,30,31,30,31,31,30,31,30,31];
+		var month_name = ["January","Febrary","March","April","May","June","July","Auguest","September","October","November","December"];
+		var holder = document.getElementById("days");
+		var prev = document.getElementById("prev");
+		var next = document.getElementById("next");
+		var ctitle = document.getElementById("calendar-title");
+		var cyear = document.getElementById("calendar-year");
+		var my_date = new Date();
+		var my_year = my_date.getFullYear();
+		var my_month = my_date.getMonth();
+		var my_day = my_date.getDate();
+		prev.onclick = function(e){
+			e.preventDefault();
+			my_month--;
+			if(my_month<0){
+				my_year--;
+				my_month = 11;
+			}
+			refreshDate();
+		}
+		next.onclick = function(e){
+			e.preventDefault();
+			my_month++;
+			if(my_month>11){
+				my_year++;
+				my_month = 0;
+			}
+			refreshDate();
+		}
+		function refreshDate(){
+			var str = "";
+			var totalDay = daysMonth(my_month, my_year); 
+			var firstDay = dayStart(my_month, my_year); 
+			var myclass;
+			for(var i=1; i<firstDay; i++){ 
+				str += "<li></li>"; 
+			}
+			for(var i=1; i<=totalDay; i++){
+				if((i<my_day && my_year==my_date.getFullYear() && my_month==my_date.getMonth()) || my_year<my_date.getFullYear() || ( my_year==my_date.getFullYear() && my_month<my_date.getMonth())){ 
+					myclass = " class='lightgrey'"; 
+				}else if (i==my_day && my_year==my_date.getFullYear() && my_month==my_date.getMonth()){
+					myclass = " class='day_title currently'"; 
+				}else{
+					myclass = " class='day_box'"; 
+				}
+				str += "<li"+myclass+">"+i+"</li>"; 
+			}
+			holder.innerHTML = str; 
+			ctitle.innerHTML = month_name[my_month]; 
+			cyear.innerHTML = my_year; 
+		}
+		function dayStart(month, year) {
+			var tmpDate = new Date(year, month, 1);
+			return (tmpDate.getDay());
+		}
+
+		function daysMonth(month, year) {
+			var tmp = year % 4;
+			if (tmp == 0) {
+				return (month_olympic[month]);
+			} else {
+				return (month_normal[month]);
+			}
+		}
+		refreshDate();
+	</script>		
+</body>
+</html>

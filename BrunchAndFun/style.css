@@ -1,0 +1,1106 @@
+/*  *{
+	outline: 1px solid rgb(255,0,0);
+} */
+	body{
+		background-image:url(imgs/bgimg.png);
+		width: 100%;
+		text-align: center;	
+	}
+	.font_chi{
+		font-family:'王漢宗細圓體繁';	
+		src:url(fonts/wt006.ttf);
+	}
+	.font_eng{ font-family: Comic Sans MS,Consolas,Arial;}
+	.menu a{
+		text-decoration: none;
+		color: rgb(165,42,42);
+	}
+	.header_all{
+		background-image:url(imgs/bgimg.png);
+		width: 100%;
+		height: 90px;
+	}
+	.header_all nav{ font-size: 24px;}
+	.sign img{
+		display: block;
+		margin:auto;
+	}
+	.sign{	
+		width: 200px;
+		margin: 30px auto;
+		position: relative;
+	}
+	.sign h2{ 
+		position: absolute; 
+		font-size: 28px;
+		color: rgb(255,255,255);
+		text-shadow: 0px 1px rgb(0,0,0);
+	}
+	.top_food p{
+		width: 250px;
+		text-align: left;
+		line-height: 30px;
+		margin: 20px auto 0;
+	}
+	.top_food{ align-items:center;}
+	.product{
+		margin: 0 auto 50px;
+		text-align: center;
+	}
+	.product p,
+	.product_2 p{
+		margin: 10px auto ;
+		color: rgb(129,65,65);
+	}	
+	.product span,
+	.product_2 span{
+		padding-left: 5px;
+		color: rgb(200,0,0);
+	}
+	.spacelease{ text-align: center;}
+	.spacelease p{ margin: 15px auto; }
+	.transportation p{display: block;}
+	.transportation .highway{
+		height: 230px;
+		background-image: url(imgs/highway.png);
+		background: no-repeat contain;
+		background-position: right bottom; 
+	}
+	.transportation .car{
+		background-image:url(imgs/car.png); 
+		height: 230px;
+		background-position: right bottom; 
+	}
+	.transportation .bus{
+		height: 230px;
+		background-image:url(imgs/bus.png);
+		background-position: right bottom; 
+	}	
+	.top_food_img .top_1 {
+		text-align: center;
+		font-size: 45px;
+		color:rgb(255,0,0);
+		padding: 10px 0 ;
+	}
+	h3{ color:rgb(129,65,65);}
+	h4{
+		color:rgb(107,67,67);
+		font-size: 28px;
+	}
+	.between_banner{height: 100px;}
+	.menu_btn a{text-decoration: none;}
+	.menu_btn p{
+		color:rgb(115,58,58);
+		padding-top: 5px;}
+	.btn_video i,
+	.boardgame span i{
+		color: rgb(255,0,0);
+		font-size:28px; 
+	}
+	.aboutus_txt h4{
+		margin: 20px 20px;
+		font-size: 23px;
+		text-align: center;
+	}
+	.aboutus_txt h3{	
+		font-size: 36px; 
+		text-align: center;
+		padding-bottom: 10px;	
+	}	
+	.boardgame span{
+		padding-left:10px; 
+	}	
+	.boardgame img{
+		width: 100%;
+	}
+	.boardgame h3{
+		margin: 10px auto; 
+		color: rgb(200,10,10);
+		font-size: 24px;
+	}
+	.boardgame p{
+		font-size: 18px;
+		margin: 15px auto; 
+		color: rgb(129,65,65);
+	}	
+	.tran_choice{
+		border: 2px  solid rgb(186, 146, 122);
+	}
+	.tran_choice h4 {
+		color: rgb(250,106,77);
+		border-bottom:  1px solid rgb(255,0,0);
+		font-size: 24px;
+		padding-bottom: 10px;
+	}
+	.tran_choice p{
+		line-height: 25px;
+		font-size: 18px;
+		color: rgb(129,65,65);
+		padding: 15px 20px;
+		line-height: 35px;
+	}
+	.about_logo_img img{
+		width: 100%;
+	}
+	.about_logo_img p{
+		margin: auto;
+		padding: 15px 0;
+	}	
+	.service_philosophy h3{
+		margin:40px auto 20px;
+		font-size: 24px;
+		color: rgb(250,106,77);
+	}	
+	.service_philosophy p{
+		line-height: 30px;
+		color: rgb(129,65,65);
+		padding: 0 20px;
+		font-size: 18px;
+	}	
+	.space_txt p{
+		color:rgb(129,65,65);
+		margin-top: 10px;
+		font-size: 20px;
+	}
+	.icon_tel{
+		transform: rotate(100deg);
+	}	
+	.btn_join{text-align: center;}
+	.btn_join p{
+		display: inline-block;
+		border-radius: 10px;
+		text-decoration: none;
+		color:rgb(170,25,0);
+		width: 150px;
+		height: 30px;
+		line-height: 30px;
+		background:none;
+		border: 1px double rgb(120,50,50);
+		box-shadow: 4px -2px rgba(130,25,25,.5);					
+	}	
+
+	.calendar{
+			width:380px;
+			height:330px;
+			background:rgb(251,252,191);
+			box-shadow:5px 5px  rgba(0,0,0,0.1);
+			border-radius: 15px;
+			margin: 20px auto;
+	}
+	.title{
+			height:70px;
+			border-bottom:1px solid rgba(0,0,0,0.1);
+			text-align:center;
+			position:relative;
+	}
+	#calendar-title{
+			font-size:25px;
+			font-weight:bold;
+			text-transform:uppercase;
+			padding:14px 0 0 0;
+	}
+	#calendar-year{
+			font-size:15px;
+			font-weight:normal;
+	}
+	#prev{
+			position:absolute;
+			left:10px;
+			top:20px;
+			color: rgb(129,65,65);
+			background:none; 
+			border:none;
+	}
+	#next{
+			position:absolute;
+			right:10px;
+			top:20px;
+			color: rgb(129,65,65);
+			border:none;
+			background: none;
+	}
+	.calendar_box{ padding:10px 20px;}
+	.calendar_box_list ul{
+			width:100%;
+			font-weight:bold;
+			font-size:14px;
+	}
+	.calendar_box_list ul li{
+			width:14.28%;
+			height:36px;
+			line-height:36px;
+			list-style-type:none;
+			display:block;
+			box-sizing:border-box;
+			float:left;
+			text-align:center;
+	}
+	.sevenday{
+		color:rgb(128,198,81);
+	}
+	.day_box{
+		color:rgb(86,86,86);
+	}
+	.day_title{
+		color:rgb(135,103,24);
+	}
+	.currently{
+		text-decoration: line-through;
+		color:rgb(255,0,0);	
+	}
+	.sevenday :nth-child(n+6){
+		color: rgb(255,0,0);
+	}
+	.highway p,
+	.car p,
+	.bus p{
+		float: left;
+		text-align: left;
+	}	
+	.transportation	h3{
+		font-size: 30px;
+		margin :60px 0 0 ;
+	}
+	.transportation	h4{ margin-top: 20px;}
+	footer p{ 
+		font-size: 23px;
+		padding : 10px 0;
+	}	
+	footer i{ padding-right:10px;}	
+	.banner_index{
+		background-image: url('imgs/banner.png');
+		height: 400px;
+		background-repeat: no-repeat;
+		background-size: cover;	
+	}	
+	.banner_menu{
+		background-image: url('imgs/menu.png');
+		background-repeat: no-repeat;
+		background-size: cover;	
+	}
+	.banner_boardgameactivity{
+		background-image: url('imgs/boardgameact.png');
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: cover;					
+	}
+	.banner_boardgameclassic{
+		background-image: url('imgs/boardgameclassic.png');
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: cover;			
+	}
+	.banner_spacelease{
+		background-image: url('imgs/spacelease.png');
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.banner_join{
+		background-image: url('imgs/joinus.png');
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}	
+	.banner_aboutus{
+		background-image: url('imgs/aboutus.png');
+		height: 130px;
+		background-repeat: no-repeat;
+		background-size: cover;		
+	}
+	.banner_txt{
+		line-height: 130px;
+		text-align: advantage;
+		width: 100%;
+		color:  rgb(255,255,255);
+	}
+	.join_step{
+		border: 1px solid rgb(125,25,0);
+		border-radius:5px; 		
+	}
+	.join_step p{
+		padding: 10px;
+		line-height: 30px;
+		text-align:left; 
+	}
+	.join_step span{ 
+		display: block;
+		padding-bottom: 10px;
+	}
+	.announcement h3,
+	.prize_txt h3{
+		color:rgb(250,106,77);
+		margin:20px 0;
+	 	text-align: center;
+		font-size: 24px;
+	}				
+	.prize_txt p{
+		font-size: 20px;
+		padding: 10px 40px;
+		text-align: left;
+		color:rgb(129,65,65);
+		border-bottom: 1px dashed rgb(129,65,65);
+	}
+	.prize_txt i{
+		font-size: 30px;
+		color: rgb(255,0,0);
+		padding-right: 15px;
+	}
+	.prize_txt :nth-child(3) i{	color: rgb(180,180,180);}		
+	.prize_txt :nth-child(4) i{ color: rgb(227,168,105);}	
+	.announcement i{
+		padding-right: 10px;
+		font-size: 30px;
+		color: rgb(129,65,65);
+	}
+	.announcement :nth-child(2n+1) i{ color: rgb(255,100,0);}		
+	.announcement p{
+		font-size: 21px;
+		padding: 10px 40px ;
+		text-align: left;
+		line-height: 35px;
+		color: rgb(129,65,65);
+		border-bottom: 1px dashed rgb(129,65,65);
+	}
+	.device p{
+	color: rgb(129,65,65);
+	margin:10px auto 20px; 
+	}
+	.form_all,
+	.reservation_search{ 
+		text-align: left;
+	}
+	.form_event{
+		padding: 10px;
+		border: 3px double rgb(255,137,50);
+		background-color: rgba(208,181,163,.5);
+		border-radius: 15px;
+		color: rgb(129,65,65);
+	}
+	.form_line{
+		border-top: 1px solid rgb(107,67,90);
+		padding-top: 15px;
+	}
+	.form_all p,
+	.reservation_search{ margin: 10px 0;}
+	.btn_submit{ 
+		width: 200px;
+		border:1px outset;
+		background:none;
+		margin: 15px 0;
+	}	
+	.btn_search{
+		width: 100px;
+		height: 30px;
+		background: none;
+		border: 1px outset; 
+	}
+	.reservation input{ margin: 10px auto;}
+	#rotatescroll{ margin: auto;}
+	.textarea_size{ resize:none;}
+	.space_rule{
+		border:1px dashed rgb(62,54,48);
+		color: rgb(96,64,42);
+		background-color: rgba(208,181,163,.5); 
+		text-align: left;
+		margin: auto;	
+	}
+	.space_rule p{
+		line-height: 35px;
+		padding:10px 30px; 
+	}
+	.reservation{
+		padding: 10px;
+		border:2px ridge rgb(170,124,124);
+		color: rgb(62, 54, 48);
+		background-color: rgba(208,181,163,.5); 
+		border-radius: 10px;
+		text-align: center;
+	}	
+	footer{
+		background-image: url('imgs/footerimg.png');
+		background-repeat: no-repeat;
+		background-size:cover;
+		width: 100%;
+		text-align: center;
+		color:rgb(96,64,42);	
+	}		
+	.anchor{
+	  display: block;
+	  height: 240px;
+	  margin-top: -240px;
+	  visibility: hidden; 
+	}	
+	.menu_btn_all.fixed{
+		background-image: url(imgs/six_buttonimg.png);		
+		position: fixed;
+		margin:auto;
+		width: 100%;
+		top:90px;
+		z-index: 2;
+	}		
+	.menu_btn_all{
+		padding-bottom: 10px;
+	}
+	.joinus_slogan{
+		margin: auto;
+  		position: relative;
+	}
+	.slogan{
+		width: 100%;
+		position: absolute;
+		top:50%;
+ 		left: 50%;
+  		transform: translate(-50%, -50%);
+  		color:rgb(255,255,255);
+	}
+	.slogan p{ margin-bottom: 15px;}
+	.slogan_title{ font-weight: 800;}	
+	.slogan_content span{ margin-top: 15px;}	
+	.joinus_slogan{
+		margin: auto;
+		height: 300px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+	.section_scroll{
+		background-image: url('imgs/join_sloganbgimg.png');
+		width: 100%;
+	}	
+	.psnote{ color:rgb(129,65,65); }
+	.psnote span{
+		text-decoration:line-through;
+		color: rgb(255,0,0);
+		font-size: 18px;
+	}
+	.fun_space h3{
+		color: rgb(200,10,10);
+		padding-top: 15px;
+	}
+	.gameimg_txt,
+	.fun_space p{ color: rgb(129,65,65);}	
+	.difficult i{
+		color: rgb(225,100,0);
+		text-shadow: 0 1px rgb(0,0,0);
+		font-size: 24px;
+	}
+	.spacemoney{
+		font-weight: 400;
+		color:rgb(200,10,10) 
+	}
+	.advantage{
+		width:360px;
+		padding: 0 5px;
+		border-radius: 5px;
+		border:1px dashed rgb(200,90,0); 
+		background-color: rgb(234,211,179);
+		margin-bottom: 50px;
+		text-align: left;
+	}
+	.advantage h3{
+		font-size: 24px;
+		color:rgb(205,107,77);
+		margin: 10px 0; 
+		text-align: center;
+	}	
+	.advantage i{
+		color: rgb(210,0,0);
+		padding-right:5px; 
+		font-size: 25px;
+	}
+	.advantage p{
+		color: rgb(129,65,65); 
+		line-height: 30px;
+		padding: 5px 10px;
+	}		
+	.join_step_all{margin-bottom: 20px;}
+	.competition_all{
+		margin-bottom:50px;
+	}
+	.top_food h3{
+		font-size: 26px;
+		margin: 10px 0;
+		color: rgb(250,106,77);
+	}
+	.top_food p{ 
+		color: rgb(129,65,65);
+	}
+	.competition_item p{
+		font-size: 18px;
+		padding: 10px 0 15px;
+		color: rgb(129,65,65);
+	}
+	.competition_item{
+		padding: 10px 0 20px ;
+	}
+	.competition_item h3{
+		font-size: 22px;
+		padding: 10px 0 10px;
+		color:rgb(250,106,77);
+	}
+	.competition{ 
+		margin: 30px 0;
+		border: 1px dashed rgb(129,65,65); }
+	.btn_slogan p{ 
+		border: 1px solid rgb(255,255,255);
+		color: rgb(255,255,255);
+	}	
+	.form_event p:nth-child(n+2){
+		border-top: 1px dashed rgb(129,65,65);
+	}
+	.form_event p{ padding-top: 10px; }
+	.competition_item i{
+		font-size: 40px;
+		color: rgb(255,0,0);
+	}
+	.join_step p{
+		color: rgb(129,65,65);
+	}
+	.join_step h3{
+		color: rgb(250,106,77);
+	}	
+	.join_step span{
+		color:rgb(129,65,65); 
+	}	
+@media screen and (max-width:767px) {
+	header{
+		width: 100%;
+		height: 90px;
+		position: fixed;
+		text-align: center;
+	}
+	header label{
+		position: absolute;
+		right:10px;
+		top:20px;
+	}
+	.header_all{
+		position: fixed;
+		z-index: 3;
+	}
+	.ham .line{
+	  width: 48px;
+	  height: 4px;
+	  background-color: rgb(129,65,65);
+	  display: block;
+	  margin: 8px auto;
+	  transition: all 0.3s ease-in-out;
+	}
+	#ham_con.is-active .line:nth-child(2){
+	  opacity: 0;
+	}
+	#ham_con.is-active .line:nth-child(1){
+	 transform: translateY(12px) rotate(45deg);
+	}
+	#ham_con.is-active .line:nth-child(3){
+	  transform: translateY(-12px) rotate(-45deg);
+	}			
+	.banner img,
+	.logo img{ vertical-align: middle;}
+	nav{
+		width: 100%;
+		height:100vh;
+		background-color: rgb(255,221,170);
+		opacity:0.9;
+		position: fixed;
+		bottom: -1500px;
+		transition: .4s;
+		z-index: 8;
+	}
+	nav a{
+		display: block;
+		padding: 10px 0;
+		color: rgb(165,42,42);
+		height: 40px;
+		text-decoration: none;
+		text-align: center;
+		line-height: 40px;
+	}	
+	nav a + a{
+		border-top: 1px solid rgb(255,170,0);}
+	#navbar_control{
+		position: absolute; 
+		opacity: 0;
+		top: -10px;
+	}	
+	#navbar_control:checked ~ nav{ 
+		top: 90px;
+		z-index:10;
+	}
+	.sign h2{ 
+		top: 23px;
+		left: 45px;
+	}
+	.top_food{
+		margin: auto;
+		text-align: center;
+	}	
+	.top_food img{
+		margin: auto;
+		display: block;
+	}		
+	.top_food p{ 
+		width: 250px;
+		margin: 10px auto 20px;
+		font-size: 17px;
+	}
+	.product img{ width: 100%;}
+	.spacelease p{font-size:2vh; }
+	.fun_space img{
+		display: block;
+		margin:auto;
+	}
+	.fun_space h3{
+		font-size: 26px;
+	}
+	.fun_space p{
+		font-size: 18px;
+	}
+	.b_space_choice{margin-top: 40px;}
+	.store_txt{margin: auto;}
+	.about_logo_img img,
+	.brunch_img,
+	.aboutus img{
+		width: 100%;
+	}
+	.googlemap{ display: none;}
+	.position{ display: none; }	
+	footer h1{
+		font-size:32px;
+		padding-bottom: 20px;
+	}	
+	.joinus_process img{
+		width: 100%;
+		margin:0 auto 30px;
+		display: block;
+	}
+	.join_step p{ font-size:20px;}
+	.join_step h3{ font-size: 26px;}	
+	.join_step{ margin-bottom: 30px;}
+	.menu_btn img{width: 100%;}
+	.menu_btn p{ font-size: 20px;}
+	.banner_menu_phone{ height: 130px;}
+	.sign_2 h2{ left:75px; }
+	.sign_3 h2{	left: 60px;	}
+	.sign_3_eng h2{left: 75px;}	
+	.game_txt,
+	.video{ display: none;}
+	.youtube_box {
+		width: 100%
+		height: 0;
+		padding-bottom: 56.25%;
+		position: relative;
+	}
+	.youtube iframe {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		left:0;
+	}
+	.slogan_title{
+		width: 100%;
+		font-size: 34px;
+	}
+	.slogan_content{
+		font-size: 20px;
+	}
+	.banner_txt{
+		text-shadow: 1px 1px rgb(0,0,0);
+	}
+	.slogan_content span{ display: block;}
+	.product p,
+	.product_2 p{ font-size:20px;}
+	.advantage h3{ font-size:5.5vw;}	
+	.gameimg_txt{ margin-top: 20px;}
+	.gameimg_txt p{
+		margin-top: 10px;
+		text-align: left;
+	}
+	.game_item_all{ margin-bottom: 20px;}
+}
+@media screen and (min-width:768px) {
+	.logo_and_navbar_pc{
+		height: 90px;
+		display: block;
+		margin: auto;
+	}
+	.header_all{
+		width: 100%;
+		position: fixed;
+		z-index:6;}
+	.header_all .control,
+	header label {display: none;}
+	header{ float:left;}
+	nav{ float:right;}
+	nav li{
+	   	display: inline-block;
+	   	line-height: 90px;
+	   	font-size: 0;
+	   	vertical-align: middle;
+	   }
+	nav li a{
+		font-size: 23px;
+		position: relative; }
+	nav a:after{
+		content: '';
+		display: block;
+		width: 2px;
+		height:36px;
+		background-color: rgb(244,123,23);
+		position: absolute;
+		top:-10px;
+		left: 97px;
+	}
+	 .logo img{
+	   	display: block;
+	   	margin: auto;
+	   }
+	.clearfix:after{
+		content:'';
+		display:block;
+		height:0;
+		clear:both;
+	}	
+	.container{
+		width: 100%;
+		max-width: 1200px;
+		display: block;
+		margin: auto;
+	}
+	.sign{ position: relative;}
+	.sign img{
+		display: block;
+		margin:auto;
+	}
+	.sign h2{ 
+		position: absolute; 
+		top: 24px;
+		left: 40px;
+	}
+	.sign_2 h2{ left:70px; }
+	.sign_3 h2{	left: 60px;	}
+	.sign_3_eng h2{left: 75px;}
+	.playway p{
+		color: rgb(250,106,77);
+		font-size: 24px;
+		padding: 10px 0 10px;
+		border-bottom: 3px double rgb(210,0,0);
+		border-top: 3px double rgb(210,0,0);
+	}
+	.playway_txt,
+	.summary{
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.game_txt,
+	.playway_txt p{ 
+		text-align: left;
+		line-height: 35px;
+		color: rgb(129,65,65);
+
+	}
+	.playway_txt i{
+		font-size: 25px;
+		color: rgb(200,10,10);
+		padding-right:10px; 
+	}
+	.gameimg_txt p{
+		padding-top: 18px;
+	}
+	.spacelease{ text-align: center; }
+	.game_introduction span{
+		border-bottom: 1.5px solid rgb(38,76,159);
+		padding-top: 10px;	
+	}
+	.game_introduction p{ padding-top: 10px;}	
+	.device p{
+		color: rgb(129,65,65);
+		margin-top: 10px;
+	}
+	.btn_submit,
+	.btn_search{
+		color: rgb(129,65,65);
+		font-size:18px;
+		margin-top: 10px;
+	}
+	.highway,
+	.car,
+	.bus{
+		width: 400px;
+		float: left;
+	}
+	.menu_btn_all_pc{
+		display: flex;
+		margin:auto;
+		padding: 0 350px;
+		width: 1200px;	
+	}
+	.menu_btn_all_pc p{ padding-bottom: 10px;}	
+	.menu_btn {
+		width: 200px;
+		font-size:24px;
+	}
+	.menu_btn a{ display: block;}
+	.product p,
+	.product_2 p{ font-size:19px;}
+	.device_txt{ text-align: center;}
+	.boardgame h3{ font-size: 24px;}	
+	.boardgame p{ font-size: 20px;}
+	.phone_map{display: none;}
+	.service_philosophy h3{
+		font-size: 24px;
+	}	
+	.about_logo_img{
+		text-align:left;
+		width: 300px;
+	}
+	.about_logo_img h1{
+		font-size:28px; 
+	}
+	.store_information,
+	.aboutus{
+		width: 1200px;
+		display: flex;
+		align-items:center;
+	 	justify-content: space-around; 
+	}
+	.brunch_img,
+	.about_logo,
+	.map{
+		width: 400px;
+	}
+	.service_philosophy p{
+		box-sizing: border-box;
+		width: 400px;
+		padding: 0 55px;
+		text-align:left; 
+	}
+	.googlemap{
+		display: block;
+		margin-bottom: 50px;
+	}
+	.transportation{ margin: 0 auto 300px;}
+	.tran_choice h4 {
+		color: rgb(250,106,77);
+		border-bottom:  1px solid rgb(255,0,0);
+		font-size: 22px;
+	}		
+	.tran_choice p{
+		font-size: 18px;
+		color: rgb(129,65,65);
+	}	
+	.popular_food{ align-items: stretch;}
+	.popular_food_2 {
+		width: 400px;
+		float: right;
+	}
+	.menu_other_food_all_2{
+		width: 800px;
+		float: left;
+	}
+	.product_2{
+		width: 200px;
+		float: left;
+		margin:0 auto 50px;
+	}
+	footer h1{ font-size: 40px;}
+	.banner_menu,
+	.banner_boardgameactivity,
+	.banner_boardgameclassic,
+	.banner_spacelease,
+	.banner_join,
+	.banner_aboutus{
+		width: 100%;
+		height: 560px;
+	}
+	.banner_index{
+		width: 100%;
+		height: 1150px;
+	}
+	.banner_txt{
+		text-align: center;
+		line-height: 560px;
+		font-size: 80px;
+	}	
+	.join_step p{ font-size: 20px;}	
+	.join_step h3{ font-size: 24px;}
+	.gamerule{ margin-bottom: 100px;}
+	.prize_txt{
+		width: 360px;
+		border-right: 1px dashed rgb(125,10,5);
+		color:rgb(129,65,65);
+		padding: 0px 0 15px 60px;
+	}
+	.prize_txt p{
+		font-size: 22px;
+		padding: 10px 10px;
+		text-align: left;
+		color:rgb(200,0,0);
+	}
+	.prize_txt i{
+		font-size: 30px;
+		color: rgb(230,0,0);
+		padding-right: 15px;
+	}	
+	.announcement{
+		width: 600px;
+		font-size: 19px;
+		text-align:left;
+		padding-left:15px;
+		justify-content:space-around; 
+		color:rgb(129,65,65);
+	}
+	.announcement p{
+		font-size: 20px;
+		padding: 10px 0 ;
+		text-align: left;
+		line-height: 25px;
+		border-bottom: 1px dashed rgb(129,65,65);
+	}	
+	.announcement h3{font-size: 24px;}
+	.prize_img{
+		background-image: url(imgs/prize.png);
+		height: 430px;		
+		display: flex;
+		align-content: space-between;
+		font-size: 24px;  
+		min-height: 200px; 
+	}	
+	.youtube_box{display: none;}
+	.joinus_slogan{
+		width: 100%;
+		margin:auto;
+		background-size: cover;
+	}
+	.slogan_title{ font-size: 40px;}
+	.slogan_content{
+		font-size: 22px;
+		padding:20px 0 ;
+	}	
+	.boardgame_img{ position: relative;}
+	.boardgame_img .gamecard{
+		position: absolute;
+		left: 0;
+		top: 0;
+		opacity: 0;
+		transition: 3s;
+	}
+	.boardgame_img:hover .gamecard{ opacity: 1;}	
+	.boardgame_img:hover .main{opacity:0;}	
+	.game_img{
+		width: 220px;
+		height: 170px;
+		position: relative;
+		display: block;
+		margin: auto;
+	}
+	.game_img div{
+		width: 100%;
+		height: 100%;
+		font-size: 100px;
+		backface-visibility: hidden;
+		transition: 1s;
+	}
+	.main{ 
+		margin: 0 30px;
+		transform: perspective(220px) rotateY(0deg);	}
+	.card_img{
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: perspective(220px) rotateY(180deg);
+	}
+	.game_img:hover .main{
+		transform: perspective(220px) rotateY(180deg);
+	}
+	.game_img:hover .card_img{
+		transform: perspective(220px) rotateY(360deg);
+	}	
+	.main_2{
+		transform: perspective(220px) rotateY(0deg);
+		width: 100%;
+		display: block;
+		margin: 0 30px;	
+	}
+	.card_img_2{
+		transform: perspective(220px) rotateY(180deg);
+		width: 100%;
+		display: block;
+		margin: auto;	
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.game_img_2:hover .main_2{
+		transform: perspective(220px) rotateY(-180deg);
+	}
+	.game_img_2:hover .card_img_2{
+		transform: perspective(220px) rotateY(0deg);
+	}
+	.game_img_1 .main{
+		background-image: url(imgs/game1.png);
+		background-repeat: no-repeat;
+	}	
+	.game_img_1 .card_img{
+		background-image: url(imgs/game1_1.png);
+		background-repeat: no-repeat;
+	}			
+	.game_img_2 .main_2{
+		background-image: url(imgs/game6.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_2 .card_img_2{
+		background-image: url(imgs/game6_1.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_3 .main{
+		background-image: url(imgs/classic01.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_3 .card_img{
+		background-image: url(imgs/classic_1.png);
+		background-repeat: no-repeat;
+	}	
+	.game_img_4 .main_2{
+		background-image: url(imgs/game3.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_4 .card_img_2{
+		background-image: url(imgs/game3_1.png);
+		background-repeat: no-repeat;
+	}	
+	.game_img_5 .main{
+		background-image: url(imgs/game4.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_5 .card_img{
+		background-image: url(imgs/game4_1.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_6 .main_2{
+		background-image: url(imgs/game5.png);
+		background-repeat: no-repeat;
+	}
+	.game_img_6 .card_img_2{
+		background-image: url(imgs/game5_1.png);
+		background-repeat: no-repeat;
+	}	
+
+	.banner_txt{ text-shadow: 2px 2px rgb(0,0,0);}	
+	.fun_space h3{ font-size: 28px;}
+	.fun_space p{ font-size: 20px;}	
+	.form_all{
+		width: 300px;
+		height:750px;
+	}
+	.reservation_search{
+		width: 300px;
+		height: 350px;
+	}
+	.advantage{ height:260px;}
+	.top_food h3{ font-size: 24px;}
+	.pc_hidden{ display: none;}
+}
